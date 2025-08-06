@@ -1,0 +1,13 @@
+# date and time
+import datetime
+#from http.cookiejar import datetime
+import random
+#date
+current_date=datetime.datetime.now().strftime("%A-%d-%B-%Y")
+print(current_date)
+
+
+#time
+time=datetime.datetime.now().time()
+print(time)
+
